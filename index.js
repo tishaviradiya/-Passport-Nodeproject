@@ -12,7 +12,7 @@ mongoose.connect('mongodb+srv://tishaviradiya:jjQCJwIAA7JgngXu@cluster0.ykok55t.
 .catch((err)=>{
     console.log(err);
 })
-const path=require('path');
+const path=require('path')
 const passport=require('passport');
 const passportLocal=require('./config/passportLocal');
 const session=require('express-session');
